@@ -9,7 +9,6 @@ var minimumSum = function(num) {
         arr.push(a[i]);
     }
     arr.sort();
-    console.log(arr)
     var num1 = arr[0] + arr[2];
     var num2 = arr[1] + arr[3];
     console.log(num1, num2)
